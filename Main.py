@@ -55,7 +55,7 @@ class Solution:
             req=self.queue[0]
             del self.queue[0]
             self.front+=1
-            return r
+            return req
         
 # read the string text
 text = input()
